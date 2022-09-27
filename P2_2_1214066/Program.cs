@@ -26,13 +26,12 @@ namespace P2_2_1214066
             var tunjangan = gaji * pers_tunjangan;
             var bonus = gaji * pers_bonus;
             var pph = gaji * pers_pph;
+            var total_gaji = gaji + tunjangan + bonus;
+            var gaji_bersih = total_gaji - pph;
 
             string tambah = (" + ");
             string kali = (" * ");
-            String kurang = (" - ");
-
-            var total_gaji = gaji + tunjangan + bonus;
-            var gaji_bersih = total_gaji - pph;
+            string kurang = (" - ");
 
             Console.Write("Kalkulasi tunjangan: ");
             Console.WriteLine(gaji + kali + pers_tunjangan2);
