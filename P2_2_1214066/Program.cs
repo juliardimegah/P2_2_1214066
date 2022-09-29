@@ -54,7 +54,7 @@ namespace P2_2_1214066
             Console.WriteLine(" ");
 
             Console.Write("Kalkulasi gaji bersih: ");
-            Console.WriteLine(gaji + kurang + pph);
+            Console.WriteLine(total_gaji + kurang + pph);
             Console.WriteLine("Total gaji bersih Anda senilai: Rp " + gaji_bersih + ",-");
             Console.WriteLine(" ");
         }
